@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body id="bodyElement">
+    <div class="lable" id="lable">Digital Watch<sub id="lablesub">By KULDEEP MAURYA</sub></div>
+    <div class="hero" id="container">
+    <div class="container" >
+        <div class="date_info">
+            <div class="day_info" id="day_info">DATE</div>
+            <div class="month_info" id="month_info">MONTH</div>
+            <div class="year_info" id="year_info">YEAR</div>
+        </div>
+        <div class="date" id="date2">
+            <div class="day" id="date"></div>
+            <div class="month" id="month"></div>
+            <div class="year" id="year"></div>
+        </div>
+
+        <!--  Time -->
+
+        <div class="time_info">
+            <div class="hour_info" id="hour_info">HOUR</div>
+            <div class="minuts_info" id="minuts_info">MINUTE</div>
+            <div class="second_info" id="second_info">SECOND</div>
+        </div>
+        <div class="date" id="time2">
+            <div class="hour change_theam" id="hour"></div>
+            <div class="blinker">
+                <div class="dlinker2" id="dlinker2"></div>
+                <div class="dlinker2" id="dlinker2"></div>
+            </div>
+            <div class="minuts" id="minuts"></div>
+            <div class="blinker">
+                <div class="dlinker2" id="dlinker2"></div>
+                <div class="dlinker2" id="dlinker2"></div>
+                </div>
+            <div class="second" id="second"></div>
+        </div>
+
+        <!-- WEEK -->
+
+        <div class="week" id="week2">
+            <div class="week_days sun">
+                <div class="point" ><div class="pointer" id="sun"></div></div>
+                <div class="name">SUN</div>
+            </div>
+            <div class="week_days mon">
+                <div class="point" ><div class="pointer" id="mon"></div></div>
+                <div class="name">MON</div>
+            </div>
+            <div class="week_days tue">
+                <div class="point" ><div class="pointer" id="tue"></div></div>
+                <div class="name">TUE</div>
+            </div>
+            <div class="week_days wed">
+                <div class="point" ><div class="pointer" id="wed"></div></div>
+                <div class="name">WED</div>
+            </div>
+            <div class="week_days thu">
+                <div class="point" ><div class="pointer" id="thu"></div></div>
+                <div class="name">THU</div>
+            </div>
+            <div class="week_days fri">
+                <div class="point" ><div class="pointer" id="fri" ></div></div>
+                <div class="name">FRI</div>
+            </div>
+            <div class="week_days sat">
+                <div class="point" ><div class="pointer" id="sat"></div></div>
+                <div class="name">SAT</div>
+            </div>
+        </div>
+
+        <!-- ALARM -->
+        
+        
+            <div class="alarm_info">
+                <div class="ampm_info" id="Meridiem" >Meridiem</div>
+                <div class="set_alarm_info" id="Theme">Theme</div>
+                <div class="alarms_info" id="colorinfo">Colors</div>
+            </div>
+
+            <div class="theam" id="theam_borer">
+                <div class="Meridiem">
+                    <div class="ampm" id="ampm"></div>
+                </div>
+                
+                <div class="mode">
+                    <div id="button">
+                        <div id="slider" onclick="darkmode()" > </div>
+                    </div>
+                </div>
+                <div class="colors" id="colors">
+                    
+                    <button onclick="blue_color()" id="blue"></button>
+                    <button onclick="green_color()" id="green"></button>
+                    <button onclick="yello_color()" id="yello"></button>
+                    <button onclick="red_color()" id="red"></button>
+                    <button onclick="skyblue_color()" id="skyblue"></button>
+                    <button onclick="pink_color()" id="pink"></button>
+                    <button onclick="perpal_color()" id="perpal"></button>
+                </div>
+            </div>
+
+
+        <!--THEAM  -->
+        
+
+        
+
+    </div>
+
+</div>
+</body>
+</html>
